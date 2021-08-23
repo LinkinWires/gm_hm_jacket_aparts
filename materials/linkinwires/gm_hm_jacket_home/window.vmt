@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "linkinwires/gm_hm_jacket_home/window"
+	"$translucent" "1"
+	"$surfaceprop" "glass"
+}
