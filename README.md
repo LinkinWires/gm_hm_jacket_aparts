@@ -1,5 +1,5 @@
 # gm_hm_jacket_aparts
-Garry's Mod map inspired by Hotline Miami.
+Garry's Mod map inspired by Hotline Miami. Including some unused assets.
 
 Steam Workshop:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2580162638

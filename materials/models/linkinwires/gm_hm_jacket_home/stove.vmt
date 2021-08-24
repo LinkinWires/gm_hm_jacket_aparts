@@ -2,5 +2,4 @@
 {
 	"$basetexture" "linkinwires/gm_hm_jacket_home/stove"
 	"$translucent" "1"
-	"$surfaceprop" "metal"
 }

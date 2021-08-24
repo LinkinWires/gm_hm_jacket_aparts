@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "218"
+	"mapversion" "219"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "26928"
-	"mapversion" "218"
+	"mapversion" "219"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -139,7 +139,7 @@ entity
 		{
 			"id" "23"
 			"plane" "(128 217 104) (160 217 104) (160 248 104)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/HOOD"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 12] 0.25"
 			"rotation" "0"

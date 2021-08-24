@@ -1,5 +1,4 @@
-"unlitgeneric"
+"vertexlitgeneric"
 {
-	// original shader: basetimesvertexcolor
-	$model 1 	"$basetexture" "hlmv/gray"
+	"$basetexture" "editor/gray"
 }

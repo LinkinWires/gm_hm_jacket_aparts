@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "217"
+	"mapversion" "219"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "26899"
-	"mapversion" "217"
+	"mapversion" "219"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -52,7 +52,7 @@ entity
 		{
 			"id" "60"
 			"plane" "(320.652 148.525 20) (326.447 150.078 20) (328 144.282 20)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0.965926 -0.258819 0 4.3334] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 21.0535] 0.5"
 			"rotation" "180"
@@ -63,9 +63,9 @@ entity
 		{
 			"id" "59"
 			"plane" "(322.204 142.729 0) (328 144.282 0) (326.447 150.078 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0.965926 0.258819 0 -112.667] 0.25"
-			"vaxis" "[0.258819 -0.965926 0 -54.1069] 0.25"
+			"material" "HALFLIFE/BLACK"
+			"uaxis" "[0.965926 0.258819 0 -16.667] 0.25"
+			"vaxis" "[0.258819 -0.965926 0 -22.1069] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -128,8 +128,8 @@ entity
 		{
 			"id" "66"
 			"plane" "(295.538 141.796 20) (301.333 143.348 20) (302.886 137.553 20)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[-0.965926 -0.258819 0 80.3334] 0.5"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0.965926 -0.258819 0 16.3334] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 21.0535] 0.5"
 			"rotation" "180"
 			"lightmapscale" "16"
@@ -139,9 +139,9 @@ entity
 		{
 			"id" "65"
 			"plane" "(297.09 136 0) (302.886 137.553 0) (301.333 143.348 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "HALFLIFE/BLACK"
 			"uaxis" "[0.965926 0.258819 0 -8.66681] 0.25"
-			"vaxis" "[0.258819 -0.965926 0 -54.1069] 0.25"
+			"vaxis" "[0.258819 -0.965926 0 -22.1069] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -204,8 +204,8 @@ entity
 		{
 			"id" "72"
 			"plane" "(288.808 166.91 20) (294.604 168.463 20) (296.157 162.667 20)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[-0.965926 -0.258819 0 80.3334] 0.5"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0.965926 -0.258819 0 16.3334] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 33.0535] 0.5"
 			"rotation" "180"
 			"lightmapscale" "16"
@@ -215,7 +215,7 @@ entity
 		{
 			"id" "71"
 			"plane" "(290.361 161.114 0) (296.157 162.667 0) (294.604 168.463 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "HALFLIFE/BLACK"
 			"uaxis" "[0.965926 0.258819 0 -8.66681] 0.25"
 			"vaxis" "[0.258819 -0.965926 0 -14.1069] 0.25"
 			"rotation" "0"
@@ -280,7 +280,7 @@ entity
 		{
 			"id" "78"
 			"plane" "(313.922 173.639 20) (319.718 175.192 20) (321.271 169.396 20)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0.965926 -0.258819 0 4.3334] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 33.0535] 0.5"
 			"rotation" "180"
@@ -291,8 +291,8 @@ entity
 		{
 			"id" "77"
 			"plane" "(315.475 167.843 0) (321.271 169.396 0) (319.718 175.192 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0.965926 0.258819 0 -112.667] 0.25"
+			"material" "HALFLIFE/BLACK"
+			"uaxis" "[0.965926 0.258819 0 -16.667] 0.25"
 			"vaxis" "[0.258819 -0.965926 0 -14.1069] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -432,8 +432,8 @@ entity
 		{
 			"id" "90"
 			"plane" "(288.808 166.91 56) (294.604 168.463 56) (296.157 162.667 56)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[-0.965926 -0.258819 0 80.3334] 0.5"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0.965926 -0.258819 0 16.3334] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 33.0535] 0.5"
 			"rotation" "180"
 			"lightmapscale" "16"
@@ -443,7 +443,7 @@ entity
 		{
 			"id" "89"
 			"plane" "(290.361 161.114 24) (296.157 162.667 24) (294.604 168.463 24)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0.965926 0.258819 0 -8.66681] 0.25"
 			"vaxis" "[0.258819 -0.965926 0 -14.1069] 0.25"
 			"rotation" "0"
@@ -508,8 +508,8 @@ entity
 		{
 			"id" "96"
 			"plane" "(301.365 170.274 56) (307.161 171.827 56) (308.714 166.032 56)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[-0.965926 -0.258819 0 106.333] 0.5"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-0.965926 -0.258819 0 42.333] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 33.0535] 0.5"
 			"rotation" "180"
 			"lightmapscale" "16"
@@ -519,7 +519,7 @@ entity
 		{
 			"id" "95"
 			"plane" "(302.918 164.479 24) (308.714 166.032 24) (307.161 171.827 24)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0.965926 0.258819 0 -60.6668] 0.25"
 			"vaxis" "[0.258819 -0.965926 0 -14.1069] 0.25"
 			"rotation" "0"
@@ -584,7 +584,7 @@ entity
 		{
 			"id" "102"
 			"plane" "(313.922 173.639 56) (319.718 175.192 56) (321.271 169.396 56)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0.965926 -0.258819 0 4.3334] 0.5"
 			"vaxis" "[-0.258819 0.965926 0 33.0535] 0.5"
 			"rotation" "180"
@@ -595,8 +595,8 @@ entity
 		{
 			"id" "101"
 			"plane" "(315.475 167.843 24) (321.271 169.396 24) (319.718 175.192 24)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0.965926 0.258819 0 -112.667] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.965926 0.258819 0 -48.667] 0.25"
 			"vaxis" "[0.258819 -0.965926 0 -14.1069] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -729,6 +729,30 @@ entity
 			"visgroupautoshown" "1"
 		}
 	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26935"
+	"classname" "propper_physics"
+	"base" "Wooden.Small"
+	"breakable_count" "5"
+	"breakable_model" "WoodChunks"
+	"breakable_skin" "0"
+	"explosive_damage" "0.0"
+	"explosive_radius" "0.0"
+	"explosive_resist" "0"
+	"flammable" "1"
+	"health" "-1"
+	"ignite_at_half_health" "0"
+	"my_model" "chair"
+	"origin" "384 192 0"
 	editor
 	{
 		"color" "220 30 220"

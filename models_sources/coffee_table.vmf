@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "219"
+	"mapversion" "221"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "26932"
-	"mapversion" "219"
+	"mapversion" "221"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -139,9 +139,9 @@ entity
 		{
 			"id" "41"
 			"plane" "(338 -126 0) (342 -126 0) (342 -122 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/COFFEE_TABLE"
-			"uaxis" "[1 0 0 -56] 0.25"
-			"vaxis" "[0 -1 0 -68] 0.25"
+			"material" "HALFLIFE/BLACK"
+			"uaxis" "[1 0 0 -24] 0.25"
+			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -215,9 +215,9 @@ entity
 		{
 			"id" "47"
 			"plane" "(314 -126 0) (318 -126 0) (318 -122 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/COFFEE_TABLE"
+			"material" "HALFLIFE/BLACK"
 			"uaxis" "[1 0 0 -24] 0.25"
-			"vaxis" "[0 -1 0 -68] 0.25"
+			"vaxis" "[0 -1 0 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -291,9 +291,9 @@ entity
 		{
 			"id" "53"
 			"plane" "(314 -108 0) (318 -108 0) (318 -104 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/COFFEE_TABLE"
+			"material" "HALFLIFE/BLACK"
 			"uaxis" "[1 0 0 -24] 0.25"
-			"vaxis" "[0 -1 0 -124] 0.25"
+			"vaxis" "[0 -1 0 -28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -367,9 +367,9 @@ entity
 		{
 			"id" "59"
 			"plane" "(338 -108 0) (342 -108 0) (342 -104 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/COFFEE_TABLE"
-			"uaxis" "[1 0 0 -56] 0.25"
-			"vaxis" "[0 -1 0 -124] 0.25"
+			"material" "HALFLIFE/BLACK"
+			"uaxis" "[1 0 0 -24] 0.25"
+			"vaxis" "[0 -1 0 -28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

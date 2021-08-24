@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "217"
+	"mapversion" "219"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "26911"
-	"mapversion" "217"
+	"mapversion" "219"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -26,14 +26,31 @@ world
 }
 entity
 {
-	"id" "26912"
-	"classname" "func_detail"
+	"id" "26927"
+	"classname" "propper_model"
+	"autocenter" "1"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "10.0"
+	"mat_nonormal" "0"
+	"materialpath" "models/linkinwires/gm_hm_jacket_home"
+	"modelname" "linkinwires/gm_hm_jacket_home/drawer"
+	"origin" "200 221 24"
+	"physmodel" "drawer"
+	"scale" "1.0"
+	"smoothangle" "45"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "c:/propsource"
+	"surfaceprop" "wood"
+	"targetname" "drawer"
+	"weldvertices" ".01"
 	solid
 	{
 		"id" "26913"
 		side
 		{
-			"id" "6"
+			"id" "36"
 			"plane" "(197 198 41) (203 198 41) (203 194 41)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 -4] 1"
@@ -44,7 +61,7 @@ entity
 		}
 		side
 		{
-			"id" "5"
+			"id" "35"
 			"plane" "(197 194 37) (203 194 37) (203 198 37)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 -4] 1"
@@ -55,7 +72,7 @@ entity
 		}
 		side
 		{
-			"id" "4"
+			"id" "34"
 			"plane" "(197 198 41) (197 194 41) (197 194 37)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 7] 1"
@@ -66,7 +83,7 @@ entity
 		}
 		side
 		{
-			"id" "3"
+			"id" "33"
 			"plane" "(203 198 37) (203 194 37) (203 194 41)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 7] 1"
@@ -77,18 +94,18 @@ entity
 		}
 		side
 		{
-			"id" "2"
+			"id" "32"
 			"plane" "(203 198 41) (197 198 41) (197 198 37)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -4] 1"
-			"vaxis" "[0 0 -1 -86] 1"
+			"vaxis" "[0 0 -1 -22] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "1"
+			"id" "31"
 			"plane" "(203 194 37) (197 194 37) (197 194 41)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 -4] 1"
@@ -99,7 +116,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -109,7 +126,7 @@ entity
 		"id" "26914"
 		side
 		{
-			"id" "12"
+			"id" "42"
 			"plane" "(178 200 46) (222 200 46) (222 198 46)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 54] 0.75"
@@ -120,7 +137,7 @@ entity
 		}
 		side
 		{
-			"id" "11"
+			"id" "41"
 			"plane" "(178 198 32) (222 198 32) (222 200 32)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 54] 0.75"
@@ -131,7 +148,7 @@ entity
 		}
 		side
 		{
-			"id" "10"
+			"id" "40"
 			"plane" "(178 200 46) (178 198 46) (178 198 32)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 54] 0.75"
@@ -142,7 +159,7 @@ entity
 		}
 		side
 		{
-			"id" "9"
+			"id" "39"
 			"plane" "(222 200 32) (222 198 32) (222 198 46)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 54] 0.75"
@@ -153,7 +170,7 @@ entity
 		}
 		side
 		{
-			"id" "8"
+			"id" "38"
 			"plane" "(222 200 46) (178 200 46) (178 200 32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -164,7 +181,7 @@ entity
 		}
 		side
 		{
-			"id" "7"
+			"id" "37"
 			"plane" "(222 198 32) (178 198 32) (178 198 46)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 44] 0.65"
@@ -175,7 +192,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -185,7 +202,7 @@ entity
 		"id" "26915"
 		side
 		{
-			"id" "18"
+			"id" "48"
 			"plane" "(197 198 25) (203 198 25) (203 194 25)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 -4] 1"
@@ -196,7 +213,7 @@ entity
 		}
 		side
 		{
-			"id" "17"
+			"id" "47"
 			"plane" "(197 194 21) (203 194 21) (203 198 21)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 -4] 1"
@@ -207,7 +224,7 @@ entity
 		}
 		side
 		{
-			"id" "16"
+			"id" "46"
 			"plane" "(197 198 25) (197 194 25) (197 194 21)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 7] 1"
@@ -218,7 +235,7 @@ entity
 		}
 		side
 		{
-			"id" "15"
+			"id" "45"
 			"plane" "(203 198 21) (203 194 21) (203 194 25)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 7] 1"
@@ -229,18 +246,18 @@ entity
 		}
 		side
 		{
-			"id" "14"
+			"id" "44"
 			"plane" "(203 198 25) (197 198 25) (197 198 21)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -4] 1"
-			"vaxis" "[0 0 -1 -102] 1"
+			"vaxis" "[0 0 -1 -38] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "13"
+			"id" "43"
 			"plane" "(203 194 21) (197 194 21) (197 194 25)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 -4] 1"
@@ -251,7 +268,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -261,7 +278,7 @@ entity
 		"id" "26916"
 		side
 		{
-			"id" "24"
+			"id" "54"
 			"plane" "(178 200 30) (222 200 30) (222 198 30)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 54] 0.75"
@@ -272,7 +289,7 @@ entity
 		}
 		side
 		{
-			"id" "23"
+			"id" "53"
 			"plane" "(178 198 16) (222 198 16) (222 200 16)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 54] 0.75"
@@ -283,7 +300,7 @@ entity
 		}
 		side
 		{
-			"id" "22"
+			"id" "52"
 			"plane" "(178 200 30) (178 198 30) (178 198 16)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 54] 0.75"
@@ -294,7 +311,7 @@ entity
 		}
 		side
 		{
-			"id" "21"
+			"id" "51"
 			"plane" "(222 200 16) (222 198 16) (222 198 30)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 54] 0.75"
@@ -305,18 +322,18 @@ entity
 		}
 		side
 		{
-			"id" "20"
+			"id" "50"
 			"plane" "(222 200 30) (178 200 30) (178 200 16)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "19"
+			"id" "49"
 			"plane" "(222 198 16) (178 198 16) (178 198 30)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 44] 0.65"
@@ -327,7 +344,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -337,7 +354,7 @@ entity
 		"id" "26917"
 		side
 		{
-			"id" "30"
+			"id" "60"
 			"plane" "(176 248 48) (224 248 48) (224 200 48)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 21.5] 0.75"
@@ -348,9 +365,9 @@ entity
 		}
 		side
 		{
-			"id" "29"
+			"id" "59"
 			"plane" "(176 200 0) (224 200 0) (224 248 0)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -359,7 +376,7 @@ entity
 		}
 		side
 		{
-			"id" "28"
+			"id" "58"
 			"plane" "(176 248 48) (176 200 48) (176 200 0)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 -10] 0.75"
@@ -370,7 +387,7 @@ entity
 		}
 		side
 		{
-			"id" "27"
+			"id" "57"
 			"plane" "(224 248 0) (224 200 0) (224 200 48)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[0 1 0 -10] 0.75"
@@ -381,7 +398,7 @@ entity
 		}
 		side
 		{
-			"id" "26"
+			"id" "56"
 			"plane" "(224 248 48) (176 248 48) (176 248 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -392,7 +409,7 @@ entity
 		}
 		side
 		{
-			"id" "25"
+			"id" "55"
 			"plane" "(224 200 0) (176 200 0) (176 200 48)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
 			"uaxis" "[1 0 0 21] 0.75"
@@ -403,16 +420,16 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 180 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
+		"logicalpos" "[0 0]"
 	}
 }

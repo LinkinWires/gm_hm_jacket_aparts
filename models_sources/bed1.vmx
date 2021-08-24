@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "1"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -37,7 +37,7 @@ entity
 	"mass" "15.0"
 	"mat_nonormal" "0"
 	"materialpath" "models/linkinwires/gm_hm_jacket_home"
-	"modelname" "linkinwires/gm_hm_jacket_home/bed"
+	"modelname" "linkinwires/gm_hm_jacket_home/bed1"
 	"origin" "0 1 0"
 	"physmodel" "bed"
 	"scale" "1.0"
@@ -142,7 +142,7 @@ entity
 		{
 			"id" "191"
 			"plane" "(-30 48 4) (30 48 4) (30 56 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 1"
 			"vaxis" "[0 -1 0 24] 1"
 			"rotation" "0"
@@ -153,8 +153,8 @@ entity
 		{
 			"id" "190"
 			"plane" "(-30 56 12) (-30 48 12) (-30 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -80] 1"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -164,8 +164,8 @@ entity
 		{
 			"id" "189"
 			"plane" "(30 56 4) (30 48 4) (30 48 12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -80] 1"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -229,7 +229,7 @@ entity
 		{
 			"id" "196"
 			"plane" "(30 56 12) (30 48 12) (30 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 16] 1"
 			"vaxis" "[0 0 -1 -20] 1"
 			"rotation" "0"
@@ -294,7 +294,7 @@ entity
 		{
 			"id" "203"
 			"plane" "(32 -48 4) (38 -48 4) (38 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 48] 1"
 			"vaxis" "[-1 0 0 26] 1"
 			"rotation" "270"
@@ -327,7 +327,7 @@ entity
 		{
 			"id" "200"
 			"plane" "(38 48 10) (32 48 10) (32 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -16] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
@@ -338,7 +338,7 @@ entity
 		{
 			"id" "199"
 			"plane" "(38 -48 4) (32 -48 4) (32 -48 10)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -16] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
@@ -403,8 +403,8 @@ entity
 		{
 			"id" "206"
 			"plane" "(38 -48 10) (32 -48 10) (32 -48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[1 0 0 -96] 1"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 1"
 			"vaxis" "[0 0 -1 -14] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -435,7 +435,7 @@ entity
 		{
 			"id" "216"
 			"plane" "(32 -48 4) (38 -48 4) (38 -54 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 40] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -457,8 +457,8 @@ entity
 		{
 			"id" "214"
 			"plane" "(32 -48 4) (32 -54 4) (32 -54 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0 1 0 -72] 0.5"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -8] 0.5"
 			"vaxis" "[0 0 -1 8] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -479,7 +479,7 @@ entity
 		{
 			"id" "212"
 			"plane" "(38 -48 4) (32 -48 4) (32 -48 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 12] 0.5"
 			"vaxis" "[0 0 -1 8] 0.5"
 			"rotation" "0"
@@ -522,8 +522,8 @@ entity
 		{
 			"id" "221"
 			"plane" "(-32 -54 4) (32 -54 4) (32 -48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[1 0 0 -96] 1"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 1"
 			"vaxis" "[0 -1 0 56] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -533,8 +533,8 @@ entity
 		{
 			"id" "220"
 			"plane" "(-32 -48 10) (-32 -54 10) (-32 -54 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -80] 1"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -544,8 +544,8 @@ entity
 		{
 			"id" "219"
 			"plane" "(32 -48 4) (32 -54 4) (32 -54 10)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -80] 1"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -587,8 +587,8 @@ entity
 		{
 			"id" "228"
 			"plane" "(-32 -48 4) (32 -48 4) (32 -54 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[1 0 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 40] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -609,7 +609,7 @@ entity
 		{
 			"id" "226"
 			"plane" "(-32 -48 4) (-32 -54 4) (-32 -54 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -40] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
@@ -620,7 +620,7 @@ entity
 		{
 			"id" "225"
 			"plane" "(32 -48 -12) (32 -54 -12) (32 -54 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -40] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
@@ -663,8 +663,8 @@ entity
 		{
 			"id" "234"
 			"plane" "(-38 -48 4) (-32 -48 4) (-32 -54 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[1 0 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -696,8 +696,8 @@ entity
 		{
 			"id" "231"
 			"plane" "(-32 -48 -12) (-32 -54 -12) (-32 -54 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -707,7 +707,7 @@ entity
 		{
 			"id" "230"
 			"plane" "(-32 -48 4) (-38 -48 4) (-38 -48 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 24] 0.5"
 			"vaxis" "[0 0 -1 8] 0.5"
 			"rotation" "0"
@@ -772,7 +772,7 @@ entity
 		{
 			"id" "237"
 			"plane" "(-32 -48 4) (-32 -54 4) (-32 -54 10)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -10] 1"
 			"vaxis" "[0 0 -1 -14] 1"
 			"rotation" "0"
@@ -826,7 +826,7 @@ entity
 		{
 			"id" "245"
 			"plane" "(-38 -48 4) (-32 -48 4) (-32 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 48] 1"
 			"vaxis" "[-1 0 0 -44] 1"
 			"rotation" "270"
@@ -859,7 +859,7 @@ entity
 		{
 			"id" "242"
 			"plane" "(-32 48 10) (-38 48 10) (-38 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 54] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
@@ -870,7 +870,7 @@ entity
 		{
 			"id" "241"
 			"plane" "(-32 -48 4) (-38 -48 4) (-38 -48 10)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 54] 1"
 			"vaxis" "[0 0 -1 -60] 1"
 			"rotation" "0"
@@ -913,8 +913,8 @@ entity
 		{
 			"id" "250"
 			"plane" "(-32 48 10) (-32 -48 10) (-32 -48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -924,8 +924,8 @@ entity
 		{
 			"id" "249"
 			"plane" "(32 48 4) (32 -48 4) (32 -48 10)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -935,7 +935,7 @@ entity
 		{
 			"id" "248"
 			"plane" "(32 48 10) (-32 48 10) (-32 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 24] 0.25"
 			"rotation" "0"
@@ -967,9 +967,9 @@ entity
 		{
 			"id" "258"
 			"plane" "(-30 56 4) (30 56 4) (30 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[1 0 0 64] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -989,8 +989,8 @@ entity
 		{
 			"id" "256"
 			"plane" "(-30 56 4) (-30 48 4) (-30 48 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1000,8 +1000,8 @@ entity
 		{
 			"id" "255"
 			"plane" "(30 56 -12) (30 48 -12) (30 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1043,7 +1043,7 @@ entity
 		{
 			"id" "264"
 			"plane" "(-38 -48 4) (-38 48 4) (-32 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
@@ -1065,7 +1065,7 @@ entity
 		{
 			"id" "262"
 			"plane" "(-38 -48 4) (-32 -48 4) (-32 -48 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
@@ -1076,7 +1076,7 @@ entity
 		{
 			"id" "261"
 			"plane" "(-38 48 -12) (-32 48 -12) (-32 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
@@ -1119,8 +1119,8 @@ entity
 		{
 			"id" "270"
 			"plane" "(-38 56 4) (-30 56 4) (-30 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[1 0 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1152,8 +1152,8 @@ entity
 		{
 			"id" "267"
 			"plane" "(-30 56 -12) (-30 48 -12) (-30 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1195,7 +1195,7 @@ entity
 		{
 			"id" "276"
 			"plane" "(30 56 4) (38 56 4) (38 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1217,8 +1217,8 @@ entity
 		{
 			"id" "274"
 			"plane" "(30 56 4) (30 48 4) (30 48 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/CHAIR"
-			"uaxis" "[0 1 0 -64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1271,7 +1271,7 @@ entity
 		{
 			"id" "282"
 			"plane" "(32 -48 4) (32 48 4) (38 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 -24] 0.25"
 			"rotation" "0"
@@ -1293,7 +1293,7 @@ entity
 		{
 			"id" "280"
 			"plane" "(32 -48 4) (38 -48 4) (38 -48 -12)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 24] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
@@ -1304,7 +1304,7 @@ entity
 		{
 			"id" "279"
 			"plane" "(32 48 -12) (38 48 -12) (38 48 4)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/BED"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 24] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"

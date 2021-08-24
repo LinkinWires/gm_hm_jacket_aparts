@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "2"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -110,9 +110,9 @@ entity
 		{
 			"id" "25"
 			"plane" "(12 0 -24) (-12 0 -24) (-12 0 24)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 -96] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -175,9 +175,9 @@ entity
 		{
 			"id" "32"
 			"plane" "(12 0 24) (-12 0 24) (-12 0 -24)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/DRAWERS"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 -96] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

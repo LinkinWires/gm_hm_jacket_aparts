@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "218"
+	"mapversion" "220"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "26918"
-	"mapversion" "218"
+	"mapversion" "220"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33,7 +33,7 @@ entity
 	"disp_nowarp" "0"
 	"mass" "20.0"
 	"mat_nonormal" "0"
-	"materialpath" "models/linkinwires/gm_hm_jacket_home/"
+	"materialpath" "models/linkinwires/gm_hm_jacket_home"
 	"modelname" "linkinwires/gm_hm_jacket_home/stove"
 	"origin" "144 222.5 27.5"
 	"physmodel" "stove"
@@ -54,7 +54,7 @@ entity
 			"plane" "(120 200 55) (120 248 55) (168 248 55)"
 			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
 			"uaxis" "[1 0 0 -32] 0.75"
-			"vaxis" "[0 -1 0 -54] 0.75"
+			"vaxis" "[0 -1 0 -53] 0.75"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -63,7 +63,7 @@ entity
 		{
 			"id" "29"
 			"plane" "(120 248 54) (120 200 54) (168 200 54)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32.3333] 0.75"
 			"vaxis" "[0 -1 0 10] 0.75"
 			"rotation" "0"
@@ -128,7 +128,7 @@ entity
 		{
 			"id" "36"
 			"plane" "(120 200 54) (120 248 54) (168 248 54)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -139,7 +139,7 @@ entity
 		{
 			"id" "35"
 			"plane" "(120 248 38) (120 200 38) (168 200 38)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -172,8 +172,8 @@ entity
 		{
 			"id" "32"
 			"plane" "(120 248 38) (168 248 38) (168 248 54)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
-			"uaxis" "[1 0 0 -96] 0.75"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 0.75"
 			"vaxis" "[0 0 -1 8] 0.75"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -248,7 +248,7 @@ entity
 		{
 			"id" "38"
 			"plane" "(124 200 31) (164 200 31) (164 200 34)"
-			"material" "HALFLIFE/BLACK"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
@@ -280,7 +280,7 @@ entity
 		{
 			"id" "48"
 			"plane" "(120 200 38) (120 248 38) (168 248 38)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -32] 0.75"
 			"vaxis" "[0 -1 0 -54] 0.75"
 			"rotation" "0"
@@ -324,7 +324,7 @@ entity
 		{
 			"id" "44"
 			"plane" "(120 248 -2.38419e-006) (168 248 -2.38419e-006) (168 248 38)"
-			"material" "LINKINWIRES/GM_HM_JACKET_HOME/STOVE"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.75"
 			"vaxis" "[0 0 -1 -13.3333] 0.75"
 			"rotation" "0"
