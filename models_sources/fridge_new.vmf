@@ -1,0 +1,681 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9008"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "1370"
+	"classname" "propper_model"
+	"autocenter" "1"
+	"concave" "1"
+	"disp_nowarp" "0"
+	"mass" "20.0"
+	"mat_nonormal" "0"
+	"materialpath" "models/linkinwires/gm_hm_jacket_home"
+	"modelname" "linkinwires/gm_hm_jacket_home/fridge_new"
+	"origin" "0 0 1"
+	"physmodel" "fridge_new"
+	"scale" "1.0"
+	"smoothangle" "45"
+	"smoothing" "1"
+	"snaptogrid" "0"
+	"sourcefolder" "c:/propsource"
+	"surfaceprop" "metal"
+	"targetname" "fridge_new"
+	"weldvertices" ".01"
+	solid
+	{
+		"id" "27"
+		side
+		{
+			"id" "198"
+			"plane" "(-16 16 35) (16 16 35) (16 15 35)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 48] 1"
+			"vaxis" "[-1 0 0 -112] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(-16 15 -32) (16 15 -32) (16 16 -32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(-16 16 35) (-16 15 35) (-16 15 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 48] 1"
+			"vaxis" "[0 0 -1 67] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(16 16 -32) (16 15 -32) (16 15 35)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "194"
+			"plane" "(16 16 35) (-16 16 35) (-16 16 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -62] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "193"
+			"plane" "(16 15 -32) (-16 15 -32) (-16 15 35)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 8] 2"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "400"
+		side
+		{
+			"id" "204"
+			"plane" "(-16 15 35) (16 15 35) (16 -15 35)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 47] 1"
+			"vaxis" "[-1 0 0 -112] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(-16 -15 34) (16 -15 34) (16 15 34)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 1"
+			"vaxis" "[-1 0 0 -111] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-16 15 35) (-16 -15 35) (-16 -15 34)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 49] 1"
+			"vaxis" "[0 0 -1 67] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(16 15 34) (16 -15 34) (16 -15 35)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 4] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "200"
+			"plane" "(16 15 35) (-16 15 35) (-16 15 34)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(16 -15 34) (-16 -15 34) (-16 -15 35)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "406"
+		side
+		{
+			"id" "210"
+			"plane" "(-16 -15 35) (16 -15 35) (16 -16 35)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 48] 1"
+			"vaxis" "[-1 0 0 -112] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "209"
+			"plane" "(-16 -16 -32) (16 -16 -32) (16 -15 -32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "208"
+			"plane" "(-16 -15 35) (-16 -16 35) (-16 -16 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 48] 1"
+			"vaxis" "[0 0 -1 67] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "207"
+			"plane" "(16 -15 -32) (16 -16 -32) (16 -16 35)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "206"
+			"plane" "(16 -15 35) (-16 -15 35) (-16 -15 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 8] 2"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(16 -16 -32) (-16 -16 -32) (-16 -16 35)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -62] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "419"
+		side
+		{
+			"id" "216"
+			"plane" "(15 15 34) (16 15 34) (16 -15 34)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 48] 1"
+			"vaxis" "[-1 0 0 -112] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "215"
+			"plane" "(15 -15 -32) (16 -15 -32) (16 15 -32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "214"
+			"plane" "(15 15 34) (15 -15 34) (15 -15 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 16] 2"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "213"
+			"plane" "(16 15 -32) (16 -15 -32) (16 -15 34)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -2] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "212"
+			"plane" "(16 15 34) (15 15 34) (15 15 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -61.5] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "211"
+			"plane" "(16 -15 -32) (15 -15 -32) (15 -15 34)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -61.5] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "755"
+		side
+		{
+			"id" "222"
+			"plane" "(-16 15 20) (15 15 20) (15 -15 20)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 1"
+			"vaxis" "[-1 0 0 -111] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "221"
+			"plane" "(-16 -15 16) (15 -15 16) (15 15 16)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 1"
+			"vaxis" "[-1 0 0 -111] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "220"
+			"plane" "(-16 15 20) (-16 -15 20) (-16 -15 16)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 48] 1"
+			"vaxis" "[0 0 -1 67] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "219"
+			"plane" "(15 15 16) (15 -15 16) (15 -15 20)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "218"
+			"plane" "(15 15 20) (-16 15 20) (-16 15 16)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "217"
+			"plane" "(15 -15 16) (-16 -15 16) (-16 -15 20)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -61] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1104"
+		side
+		{
+			"id" "228"
+			"plane" "(-16 16 -32) (16 16 -32) (16 -16 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 21] 2"
+			"vaxis" "[-1 0 0 -104] 2"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "227"
+			"plane" "(-16 -16 -33) (16 -16 -33) (16 16 -33)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 16] 1"
+			"vaxis" "[-1 0 0 -47] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "226"
+			"plane" "(-16 16 -32) (-16 -16 -32) (-16 -16 -33)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 49] 1"
+			"vaxis" "[0 0 -1 0] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "225"
+			"plane" "(16 16 -33) (16 -16 -33) (16 -16 -32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 4] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "224"
+			"plane" "(16 16 -32) (-16 16 -32) (-16 16 -33)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 0] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "223"
+			"plane" "(16 -16 -33) (-16 -16 -33) (-16 -16 -32)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 0] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1256"
+		side
+		{
+			"id" "234"
+			"plane" "(-16 15 -15) (15 15 -15) (15 -15 -15)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 2"
+			"vaxis" "[-1 0 0 -104] 2"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "233"
+			"plane" "(-16 -15 -16) (15 -15 -16) (15 15 -16)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 1"
+			"vaxis" "[-1 0 0 -111] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "232"
+			"plane" "(-16 15 -15) (-16 -15 -15) (-16 -15 -16)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 49] 1"
+			"vaxis" "[0 0 -1 17] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "231"
+			"plane" "(15 15 -16) (15 -15 -16) (15 -15 -15)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 4] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "230"
+			"plane" "(15 15 -15) (-16 15 -15) (-16 15 -16)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -111] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "229"
+			"plane" "(15 -15 -16) (-16 -15 -16) (-16 -15 -15)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -111] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "1316"
+		side
+		{
+			"id" "240"
+			"plane" "(-16 15 1) (15 15 1) (15 -15 1)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 2"
+			"vaxis" "[-1 0 0 -104] 2"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "239"
+			"plane" "(-16 -15 0) (15 -15 0) (15 15 0)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 -1 0 16] 1"
+			"vaxis" "[-1 0 0 -111] 1"
+			"rotation" "270"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "238"
+			"plane" "(-16 15 1) (-16 -15 1) (-16 -15 0)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[0 1 0 49] 1"
+			"vaxis" "[0 0 -1 33] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "237"
+			"plane" "(15 15 0) (15 -15 0) (15 -15 1)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 4] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "236"
+			"plane" "(15 15 1) (-16 15 1) (-16 15 0)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -95] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "235"
+			"plane" "(15 -15 0) (-16 -15 0) (-16 -15 1)"
+			"material" "LINKINWIRES/GM_HM_JACKET_HOME/FRIDGE_NEW"
+			"uaxis" "[1 0 0 16] 1"
+			"vaxis" "[0 0 -1 -95] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[31.6844 -71.9569 97.0971]"
+		"look" "[28.2978 -64.5431 89.2261]"
+	}
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
