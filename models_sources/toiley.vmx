@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "5"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -36,8 +36,8 @@ entity
 	"disp_nowarp" "0"
 	"mass" "0.0"
 	"mat_nonormal" "0"
-	"materialpath" "models/linkinwires/gm_hm_jacket_aparts"
-	"modelname" "linkinwires/gm_hm_jacket_aparts/toilet"
+	"materialpath" "models/linkinwires/gm_hm_jacket_home"
+	"modelname" "linkinwires/gm_hm_jacket_home/toilet"
 	"origin" "0 0.5 0"
 	"physmodel" "toilet"
 	"scale" "1.5"

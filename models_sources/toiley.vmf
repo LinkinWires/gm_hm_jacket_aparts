@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9008"
-	"mapversion" "6"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -41,7 +41,7 @@ entity
 	"origin" "0 0.5 0"
 	"physmodel" "toilet"
 	"scale" "1.5"
-	"smoothangle" "180"
+	"smoothangle" "0"
 	"smoothing" "1"
 	"snaptogrid" "0"
 	"sourcefolder" "c:/propsource"
