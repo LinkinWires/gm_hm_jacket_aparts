@@ -1,6 +1,5 @@
 "vertexlitgeneric"
 {
 	"$basetexture" "linkinwires/gm_hm_jacket_home/sink"
-	"$translucent" "1"
 	"$surfaceprop" "tile"
 }
